@@ -8,11 +8,16 @@
 | :-----| :-----: |
 | ![1](./images/image_0.jpg) | ![2](./images/image_1.jpg) 
 
-## Константи
+## Константи, неймінг
 > в :app build.gradle за допомогою buildConfigField
 > - BASE_URL
 > - API_KEY
 > - IMAGE_BASE_URL
+
+> [!IMPORTANT]
+> Для Impl інтерфейсу використовую Impl або Base, якщо класс Impl знаходиться в Interface
+> - FeedRepo -> FeedRepoImpl()
+> - FeedUseCase -> FeedUseCase.Base()
 
 ---
 
